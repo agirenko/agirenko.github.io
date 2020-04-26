@@ -64,7 +64,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "" + ({"default~clients-clients-module~loanapplications-loanapplications-module~loans-loans-module":"default~clients-clients-module~loanapplications-loanapplications-module~loans-loans-module","clients-clients-module":"clients-clients-module","loanapplications-loanapplications-module":"loanapplications-loanapplications-module","loans-loans-module":"loans-loans-module"}[chunkId]||chunkId) +    "-es5.js"
+/******/ 		return __webpack_require__.p + "" + ({"loanapplications-loanapplications-module":"loanapplications-loanapplications-module","loans-loans-module":"loans-loans-module"}[chunkId]||chunkId) +    "-es5.js"
 /******/ 	}
 /******/
 /******/ 	// The require function
